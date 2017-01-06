@@ -2,7 +2,7 @@
 <img src="https://rdbrck.com/github/boilerbrck_v2.svg">
 </p>
 
-<h3 align="center">Rdbrck kit to start a new html/js project</h3>
+<h1 align="center">Rdbrck kit to start a new html/js project</h1>
 
 ### Features
 - A lightweight batch of [HTML5 Boilerplate](https://html5boilerplate.com) features
