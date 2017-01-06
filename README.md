@@ -25,3 +25,16 @@
 * Internet Explorer 9+ (but generally IE8 should work fine with included [ie-love](https://github.com/corysimmons/ie-love) and [autoprefixer](https://github.com/postcss/autoprefixer))
 * Opera *(latest 2)*
 * Safari *(latest 2)*
+
+
+### Installation
+
+1. Install [nodejs](https://nodejs.org/en/) with npm
+2. Install bower globally
+```sh
+npm install -g bower
+```
+3. Install gulp globally
+```sh
+npm install --global gulp-cli
+```
