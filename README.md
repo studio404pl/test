@@ -67,7 +67,7 @@ Bootstrap is fine, but is not enough. Large css file with lot of mess, fixed bre
 - [postcss-opacity](https://github.com/iamvdo/postcss-opacity) - plugin that adds support for legacy browser opacity alternatives.
 - [PreCSS](https://github.com/jonathantneal/precss) - tool that allows you to use Sass-like markup in your CSS files.
 - [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - UglifyJS
-- [gulp-minify-css](https://www.npmjs.com/package/gulp-minify-css) - minifies CSS
+- [gulp-minify-css](https://www.npmjs.com/package/gulp-clean-css) - minifies CSS with clean-css
 - [gulp-concat](https://www.npmjs.com/package/gulp-concat) - concatenates files
 - [cssnext](http://cssnext.io/) - transforms new CSS specs into more compatible CSS
 - [browser-sync](https://www.browsersync.io/) - synchronized browser testing
