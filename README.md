@@ -38,7 +38,15 @@ npm install -g bower
 ```sh
 npm install --global gulp-cli
 ```
-<p>4. Run gulp inside project directory</p>
+<p>4. Install npm packages inside project directory</p>
+```sh
+npm install
+```
+<p>5. Install bower packages inside project directory</p>
+```sh
+bower install
+```
+<p>6. Run gulp inside project directory</p>
 ```sh
 gulp
 ```
