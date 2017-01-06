@@ -2,9 +2,9 @@
 <img src="https://rdbrck.com/github/boilerbrck_v2.svg">
 </p>
 
-<h2 align="center">Rdbrck kit to start a new html/js project</h2>
+<h3 align="center">Rdbrck kit to start a new html/js project</h3>
 
-## Features
+### Features
 - A lightweight batch of [HTML5 Boilerplate](https://html5boilerplate.com) features
 - [.htaccess](.htaccess)
 - Browser warning on IE9 or lower
