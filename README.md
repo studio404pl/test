@@ -62,14 +62,13 @@ Powerful grid system built in PostCSS. By default, template has flexbox support 
 Bootstrap is fine, but is not enough. Large css file with lot of mess, fixed breakpoints, fixed layout to 12 columns. In Grid you can define fixed gutters, different grid layouts, define cycles, control shifts etc. Everything is described in [docs](http://lostgrid.org/docs.html). Recently author of that plugin started to work on [video tutorials](https://www.youtube.com/watch?v=6FN7QU1ZxqA&list=PLHYmM0rBloyTelftsYtk93VgunoYmNkc5)
 
 #### Gulp packages / PostCSS plugins
-- [autoprefixer](https://github.com/postcss/autoprefixer) - handles css prefixes automatically
+- [PreCSS](https://github.com/jonathantneal/precss) - tool that allows you to use Sass-like markup in your CSS files.
+- [cssnext (includes autoprefixer)](http://cssnext.io/) - transforms new CSS specs into more compatible CSS
 - [postcss-filter-gradient](https://github.com/yuezk/postcss-filter-gradient) - plugin for generating the old IE supported filter gradient.
 - [postcss-opacity](https://github.com/iamvdo/postcss-opacity) - plugin that adds support for legacy browser opacity alternatives.
-- [PreCSS](https://github.com/jonathantneal/precss) - tool that allows you to use Sass-like markup in your CSS files.
 - [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - UglifyJS
 - [gulp-minify-css](https://www.npmjs.com/package/gulp-clean-css) - minifies CSS with clean-css
 - [gulp-concat](https://www.npmjs.com/package/gulp-concat) - concatenates files
-- [cssnext](http://cssnext.io/) - transforms new CSS specs into more compatible CSS
 - [browser-sync](https://www.browsersync.io/) - synchronized browser testing
 
 #### js libraries
