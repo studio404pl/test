@@ -51,7 +51,7 @@ gulp
 Powerful grid system built in PostCSS. By default, template has flexbox support disabled by default to support IE9.
 
 ##### Why not bootstrap?
-Bootstrap is fine, but not enough. Large css file with lot of mess, fixed breakpoints, fixed layout to 12 columns. In Grid you can define fixed gutters. Everything is described in [docs](http://lostgrid.org/docs.html). Recently author of that plugin started to work on [video tutorials](https://www.youtube.com/watch?v=6FN7QU1ZxqA&list=PLHYmM0rBloyTelftsYtk93VgunoYmNkc5)
+Bootstrap is fine, but not enough. Large css file with lot of mess, fixed breakpoints, fixed layout to 12 columns. In Grid you can define fixed gutters, different grid layouts, define cycles, control shifts etc. Everything is described in [docs](http://lostgrid.org/docs.html). Recently author of that plugin started to work on [video tutorials](https://www.youtube.com/watch?v=6FN7QU1ZxqA&list=PLHYmM0rBloyTelftsYtk93VgunoYmNkc5)
 
 #### Gulp packages / PostCSS plugins
 - [autoprefixer](https://github.com/postcss/autoprefixer) - handles css prefixes automatically
@@ -64,5 +64,12 @@ Bootstrap is fine, but not enough. Large css file with lot of mess, fixed breakp
 - [cssnext](http://cssnext.io/) - transforms new CSS specs into more compatible CSS
 - [browser-sync](https://www.browsersync.io/) - synchronized browser testing
 
-#### Js Libraries
+#### js libraries
+- [lightcase](http://cornel.bopp-art.com/lightcase/) - lightweight and beautiful lightbox with lot of options and support different content. Unfortunately it's based on jQuery. If you know similar library but without dependencies - please let me know.
+- [retinajs](https://github.com/imulus/retinajs) - supports retina images, included in js and sass already, no dependencies
+- [scrollreveal](https://github.com/jlmakes/scrollreveal) - lightweight and simple animation library, no dependencies
+- [slick](http://kenwheeler.github.io/slick/) - simple and powerfull tool for slider modules and carousels, no dependencies
 
+Lightcase and Slick are optional. You can define if you want to include them in gulp file by declaring true/false value.
+
+#### 
