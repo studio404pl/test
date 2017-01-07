@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://rdbrck.com/github/boilerbrck_v2.svg">
+<img src="https://rdbrck.com/github/boilerbrck.svg">
 </p>
 
 <h1 align="center">Rdbrck kit to start a new html/js project</h1>
