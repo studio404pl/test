@@ -59,7 +59,7 @@ gulp
 Powerful grid system built in PostCSS. By default, template has flexbox support disabled to support IE9.
 
 ##### Why not bootstrap?
-Bootstrap is fine, but is not enough. Large css file with lot of mess, fixed breakpoints, fixed layout to 12 columns. In Grid you can define fixed gutters, different grid layouts, define cycles, control shifts etc. Everything is described in [docs](http://lostgrid.org/docs.html). Recently author of that plugin started to work on [video tutorials](https://www.youtube.com/watch?v=6FN7QU1ZxqA&list=PLHYmM0rBloyTelftsYtk93VgunoYmNkc5)
+Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed breakpoints, fixed layout to 12 columns. In Grid you can define fixed gutters, different grid layouts, define cycles, control shifts etc. Everything is described in [docs](http://lostgrid.org/docs.html). Recently author of that plugin started to work on [video tutorials](https://www.youtube.com/watch?v=6FN7QU1ZxqA&list=PLHYmM0rBloyTelftsYtk93VgunoYmNkc5)
 
 #### Gulp packages / PostCSS plugins
 - [PreCSS](https://github.com/jonathantneal/precss) - tool that allows you to use Sass-like markup in your CSS files.
