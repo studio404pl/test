@@ -80,7 +80,9 @@ Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed b
 - [scrollreveal](https://github.com/jlmakes/scrollreveal) - lightweight and simple animation library. No dependencies.
 - [slick](http://kenwheeler.github.io/slick/) - simple and powerfull tool for slider modules and carousels. No dependencies.
 
-All above libraries are optional and kit supports them. You can include them easily just by declaring true/false value next to library name in `gulpfile.js` at the very top. Everything else (including js/css files, concatenating) is handled automatically.
+**All above libraries are optional and kit supports them. You can include them easily just by declaring true/false value next to library name in `gulpfile.js` at the very top. Everything else (including js/css files, concatenating) is handled automatically.**
+
+If you want to add something to that list - create an issue.
 
 
 
