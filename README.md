@@ -178,6 +178,15 @@ Of course you can go with svg but from what i know it's not a bulletproof soluti
 
 and check developer console against any 404 errors for image files.
 
+- test button/input elements against different states like :focus, :hover, :active,
+- button and inputs should get `appearance: none;` attribute if you want to get rid of unnecessary styling and be sure that they will look the same across all browsers.
+- textareas should be non-resizable. Add `resize: none;` attribute to achieve that,
+- remember about wrapping phone numbers links in `<a href="tel:000000">000000</a>`. Default formatting for phone numbers is disabled with below code:
+
+```html
+<meta name="format-detection" content="telephone=no">
+```
+
 - check your project on [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - you should get mobile score larger than 70 and for desktops it should be more than 85.
 
 - check your project on [GTmetrix](https://gtmetrix.com) - it should be at least A grade for PageSpeed and YSlow (~90%)
