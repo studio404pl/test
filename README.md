@@ -70,7 +70,7 @@ Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed b
 - [gulp-minify-css](https://www.npmjs.com/package/gulp-clean-css) - minifies CSS with clean-css
 - [gulp-concat](https://www.npmjs.com/package/gulp-concat) - concatenates files
 - [browser-sync](https://www.browsersync.io/) - synchronized browser testing
-- [gulp-real-favicon](https://www.npmjs.com/package/gulp-real-favicon) - favicon generator. [Read more](#favicon)
+- [gulp-real-favicon](https://www.npmjs.com/package/gulp-real-favicon) - favicon generator. [Read more](#favicon-generator)
 
 #### js libraries
 - [lightcase](http://cornel.bopp-art.com/lightcase/) - lightweight and beautiful lightbox with lot of options and support different content. Unfortunately it's based on jQuery. If you know similar library but without dependencies - please let me know.
