@@ -178,6 +178,6 @@ That section will be filled out in near future. You can also create an issue if 
 
 and check developer console against any 404 errors for image files.
 
-- check your project on (Google PageSpeed Insights)[https://developers.google.com/speed/pagespeed/insights/] - you should get mobile score larger than 70 and for desktops it should be more than 85.
+- check your project on [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - you should get mobile score larger than 70 and for desktops it should be more than 85.
 
-- check your project on (GTmetrix)[https://gtmetrix.com] - it should be at least A grade for PageSpeed and YSlow (~90%)
+- check your project on [GTmetrix](https://gtmetrix.com) - it should be at least A grade for PageSpeed and YSlow (~90%)
