@@ -59,7 +59,7 @@ gulp
 Powerful grid system built in PostCSS. By default, template has flexbox support disabled to support IE9.
 
 ##### Why not bootstrap?
-Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed breakpoints, fixed layout to 12 columns. In Lost Grid you can define fixed gutters, different grid layouts, define cycles, control shifts etc. Everything is described in [docs](http://lostgrid.org/docs.html). Recently author of that plugin started to work on [video tutorials](https://www.youtube.com/watch?v=6FN7QU1ZxqA&list=PLHYmM0rBloyTelftsYtk93VgunoYmNkc5)
+Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed breakpoints, fixed layout to 12 columns. In Lost Grid you can define fixed gutters, different grid layouts, define cycles, control shifts etc. Everything is described in [docs](http://lostgrid.org/docs.html). Recently the author of that plugin started to work on [video tutorials](https://www.youtube.com/watch?v=6FN7QU1ZxqA&list=PLHYmM0rBloyTelftsYtk93VgunoYmNkc5).
 
 #### Gulp packages / PostCSS plugins
 - [PreCSS](https://github.com/jonathantneal/precss) - tool that allows you to use Sass-like markup in your CSS files.
@@ -138,7 +138,7 @@ optimized version of all images will be saved in `assets/images/` directory.
 ```
 `main` is default value.
 - all assets should be placed in `assets` directory,
-- all assets *has to be* loaded from assets directory. Do not link to `bower_components` directory in any case.
+- all assets *have to be* loaded from assets directory. Do not link to `bower_components` directory in any case.
 - all libraries should be installed via package managers (bower or npm),
 - try to separate css styling to different layouts and modules files ie.
 ```sh
@@ -158,13 +158,13 @@ That section will be filled out in near future. You can also create an issue if 
 
 #### what about icons?
 
-By icons i mean situation when i have more than 10 images and want to use them in different sizes and places.
+By icons, I mean a situation where I have 10 or more images and want to use them in different sizes and places.
 
-For solid (one color) icons i recommend [fontello - fontface generator](http://fontello.com). It supports literally all platforms. You can review uploaded icons, download export file for future use, style sizes and colors through css.
+For solid (one color) icons, I recommend [fontello - fontface generator](http://fontello.com). It supports literally all platforms. You can review uploaded icons, export the file for future use,  and style sizes and colours through css.
 
-For multiple colors i recommend [grumpicon](http://www.grumpicon.com/) it's a webapp wrapper for grunticon that handles all necessary processes and generate for you all svg images with png fallbacks and stylesheets.
+For multiple colours, I recommend [grumpicon](http://www.grumpicon.com/). It's a webapp wrapper for grunticon that handles all necessary processes and generates svg images with png fallbacks and stylesheets.
 
-Of course you can go with svg but from what i know it's not a bulletproof solution - if you have other opinion on that - please let me know.
+Of course you can go with svg, but from what I know it's not a bulletproof solution - if you have another opinion on that - please let me know.
 
 ## CHECKLIST before pushing project to acceptation
 
