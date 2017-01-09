@@ -81,7 +81,7 @@ Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed b
 
 All above libraries are optional and kit supports them. You can include them easily just by declaring true/false value next to library name in `gulpfile.js` at the very top. Everything else (including js/css files, concatenating) is handled automatically.
 
-#### Favicon generator
+#### favicon generator
 
 To easily generate favicon in all formats you just have to replace source file (minimum 260x260 pixels):
 
