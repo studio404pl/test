@@ -22,7 +22,7 @@
 * Chrome *(latest 2)*
 * Edge *(latest 2)*
 * Firefox *(latest 2)*
-* Internet Explorer 9+ (but generally IE8 should work fine with included [ie-love](https://github.com/corysimmons/ie-love) and [autoprefixer](https://github.com/postcss/autoprefixer))
+* Internet Explorer 9+ (but generally IE8 should work fine with included [ie-love](https://github.com/corysimmons/ie-love) and [cssnext](http://cssnext.io/))
 * Opera *(latest 2)*
 * Safari *(latest 2)*
 
