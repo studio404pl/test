@@ -73,10 +73,11 @@ Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed b
 
 #### js libraries
 - [lightcase](http://cornel.bopp-art.com/lightcase/) - lightweight and beautiful lightbox with lot of options and support different content. Unfortunately it's based on jQuery. If you know similar library but without dependencies - please let me know.
-- [retinajs](https://github.com/imulus/retinajs) - supports retina images, included in js and sass already, no dependencies
-- [scrollreveal](https://github.com/jlmakes/scrollreveal) - lightweight and simple animation library, no dependencies
-- [slick](http://kenwheeler.github.io/slick/) - simple and powerfull tool for slider modules and carousels, no dependencies
+- [retinajs](https://github.com/imulus/retinajs) - supports retina images, included in js and sass already. No dependencies.
+- [scrollreveal](https://github.com/jlmakes/scrollreveal) - lightweight and simple animation library. No dependencies.
+- [slick](http://kenwheeler.github.io/slick/) - simple and powerfull tool for slider modules and carousels. No dependencies.
+- [remodal](https://github.com/VodkaBears/Remodal) - responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking. No dependencies.
 
-All above libraries are optional and kit supports them. You can include them easily just by declaring true/false value next to library name in `gulpfile.js`. Everything else (including js/css files, concatenating) is handled in gulp.
+All above libraries are optional and kit supports them. You can include them easily just by declaring true/false value next to library name in `gulpfile.js` at the very top. Everything else (including js/css files, concatenating) is handled automatically.
 
 #### 
