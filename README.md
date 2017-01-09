@@ -126,8 +126,9 @@ gulp images
 
 optimized version of all images will be saved in `assets/images/` directory.
 
+## Additional information
 
-#### project structure
+#### structure
 
 - page content should be placed in `pagename_content.php` file. You can display page content by adding in kit url parameter `page`.
 ```sh
@@ -148,3 +149,35 @@ optimized version of all images will be saved in `assets/images/` directory.
 @import 'layouts/single';
 @import 'layouts/contact';
 ```
+
+## FAQ
+
+That section will be filled out in near future. You can also create an issue if you have question or new idea for extending kit or modifying some things.
+
+#### what about icons?
+
+##### By icons i mean situation when i have more than 10 images and want to use them in different sizes and places.
+
+##### For solid (one color) icons i recommend [fontello - fontface generator](http://fontello.com). It supports literally all platforms. You can review uploaded icons, download export file for future use, style sizes and colors through css.
+
+##### For multiple colors i recommend [grumpicon](http://www.grumpicon.com/) it's a webapp wrapper for grunticon that handles all necessary processes and generate for you all svg images with png fallbacks and stylesheets.
+
+##### Of course you can go with svg's 
+
+## CHECKLIST before pushing project to acceptation
+
+- if you are using retinajs plugin and don't have retina device you have to test it on your own. Place below code in head section to spoof retina device:
+
+```javascript
+<script type="text/javascript">
+  // Spoof the browser into thinking it is Retina
+  // comment the next line out to make sure it works without retina
+  window.devicePixelRatio = 2;
+</script>
+```
+
+and check developer console against any 404 errors for image files.
+
+- check your project on (Google PageSpeed Insights)[https://developers.google.com/speed/pagespeed/insights/] - you should get mobile score larger than 70 and for desktops it should be more than 85.
+
+- check your project on (GTmetrix)[https://gtmetrix.com] - it should be at least A grade for PageSpeed and YSlow (~90%)
