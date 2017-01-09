@@ -8,7 +8,7 @@
 - A lightweight batch of [HTML5 Boilerplate](https://html5boilerplate.com) features
 - [.htaccess](.htaccess)
 - Browser warning on IE9 or lower
-- Polyfills for IE8 and below a la :heart: [ie-love](https://github.com/corysimmons/ie-love)
+- Polyfills for IE8 and below handled by [ie-love](https://github.com/corysimmons/ie-love)
   - Conditionally loaded so only IE8 and below users will have to download it.
   - [html5shiv](https://github.com/aFarkas/html5shiv)
   - [calc-polyfill](https://github.com/closingtag/calc-polyfill)
