@@ -83,14 +83,24 @@ All above libraries are optional and kit supports them. You can include them eas
 
 #### favicon generator
 
-To easily generate favicon in all formats you just have to replace source file (minimum 260x260 pixels):
+To easily generate favicon images in all formats you just have to replace source file (minimum 260x260 pixels):
 
 ```sh
 assets/images/favicon_src.png
 ```
 
-and run:
+and run command that will generate all favicons related files:
 
 ```sh
 gulp generate-favicon
 ```
+
+to inject necessary code into header section of main template file you just have to run:
+
+```sh
+gulp inject-favicon-markups
+```
+
+and you are ready to roll.
+
+You can adjust background colors, application name etc. in `gulpfile.js`
