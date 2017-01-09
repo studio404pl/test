@@ -70,7 +70,8 @@ Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed b
 - [gulp-minify-css](https://www.npmjs.com/package/gulp-clean-css) - minifies CSS with clean-css
 - [gulp-concat](https://www.npmjs.com/package/gulp-concat) - concatenates files
 - [browser-sync](https://www.browsersync.io/) - synchronized browser testing
-- [gulp-real-favicon](https://www.npmjs.com/package/gulp-real-favicon) - favicon generator. [Read more](#favicon-generator)
+- [gulp-real-favicon](https://www.npmjs.com/package/gulp-real-favicon) - favicon generator. [Jump to section](#favicon-generator)
+- [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - image optimization. [Jump to section](#image-optimization)
 
 #### js libraries
 - [lightcase](http://cornel.bopp-art.com/lightcase/) - lightweight and beautiful lightbox with lot of options and support different content. Unfortunately it's based on jQuery. If you know similar library but without dependencies - please let me know.
@@ -80,6 +81,8 @@ Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed b
 - [slick](http://kenwheeler.github.io/slick/) - simple and powerfull tool for slider modules and carousels. No dependencies.
 
 All above libraries are optional and kit supports them. You can include them easily just by declaring true/false value next to library name in `gulpfile.js` at the very top. Everything else (including js/css files, concatenating) is handled automatically.
+
+
 
 #### favicon generator
 
@@ -104,3 +107,40 @@ gulp inject-favicon-markups
 and you are ready to roll.
 
 You can adjust background colors, application name etc. in `gulpfile.js`
+
+
+
+#### image optimization
+
+Place all your original image files in:
+
+```sh
+assets/images/org/
+```
+
+and run:
+
+```sh
+gulp images
+```
+
+optimized version of all images will be saved in `assets/images/` directory.
+
+
+#### project structure
+
+- page content should be placed in `pagename_content.php` file. You can display page content by adding in kit url `?page=pagename` parameter. `main` is default value.
+- all assets should be placed in `assets` directory,
+- all assets *has to be* loaded from assets directory. Do not link to `bower_components` directory in any case.
+- all libraries should be installed via package managers (bower or npm),
+- try to separate css styling to different layouts and modules files ie.
+```sh
+@import 'layouts/header';
+@import 'layouts/footer';
+
+@import 'layouts/form';
+
+@import 'layouts/main';
+@import 'layouts/single';
+@import 'layouts/contact';
+```
