@@ -129,8 +129,11 @@ optimized version of all images will be saved in `assets/images/` directory.
 
 #### project structure
 
-- page content should be placed in `pagename_content.php` file. You can display page content by adding in kit url
-`?page=pagename` parameter. `main` is default value.
+- page content should be placed in `pagename_content.php` file. You can display page content by adding in kit url parameter `page`.
+```sh
+?page=pagename
+```
+`main` is default value.
 - all assets should be placed in `assets` directory,
 - all assets *has to be* loaded from assets directory. Do not link to `bower_components` directory in any case.
 - all libraries should be installed via package managers (bower or npm),
