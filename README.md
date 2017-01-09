@@ -156,13 +156,13 @@ That section will be filled out in near future. You can also create an issue if 
 
 #### what about icons?
 
-##### By icons i mean situation when i have more than 10 images and want to use them in different sizes and places.
+By icons i mean situation when i have more than 10 images and want to use them in different sizes and places.
 
-##### For solid (one color) icons i recommend [fontello - fontface generator](http://fontello.com). It supports literally all platforms. You can review uploaded icons, download export file for future use, style sizes and colors through css.
+For solid (one color) icons i recommend [fontello - fontface generator](http://fontello.com). It supports literally all platforms. You can review uploaded icons, download export file for future use, style sizes and colors through css.
 
-##### For multiple colors i recommend [grumpicon](http://www.grumpicon.com/) it's a webapp wrapper for grunticon that handles all necessary processes and generate for you all svg images with png fallbacks and stylesheets.
+For multiple colors i recommend [grumpicon](http://www.grumpicon.com/) it's a webapp wrapper for grunticon that handles all necessary processes and generate for you all svg images with png fallbacks and stylesheets.
 
-##### Of course you can go with svg's 
+Of course you can go with svg but from what i know it's not a bulletproof solution - if you have other opinion on that - please let me know.
 
 ## CHECKLIST before pushing project to acceptation
 
