@@ -75,7 +75,7 @@ Bootstrap is fine, but it's not enough. Large css file with lot of mess, fixed b
 
 #### js libraries
 - [lightcase](http://cornel.bopp-art.com/lightcase/) - lightweight and beautiful lightbox with lot of options and support different content. Unfortunately it's based on jQuery. If you know similar library but without dependencies - please let me know.
-- [remodal](https://github.com/VodkaBears/Remodal) - responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking. No dependencies.
+- [remodal](https://github.com/VodkaBears/Remodal) - responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking. Requires jQuery.
 - [retinajs](https://github.com/imulus/retinajs) - supports retina images, included in js and sass already. No dependencies.
 - [scrollreveal](https://github.com/jlmakes/scrollreveal) - lightweight and simple animation library. No dependencies.
 - [slick](http://kenwheeler.github.io/slick/) - simple and powerfull tool for slider modules and carousels. No dependencies.
