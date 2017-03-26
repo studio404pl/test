@@ -31,26 +31,34 @@
 
 <p>1. Install <a href="https://nodejs.org/en/">nodejs</a> with npm</p>
 <p>2. Install bower globally</p>
+
 ```sh
 npm install -g bower
 ```
+
 <p>3. Install gulp globally</p>
+
 ```sh
 npm install --global gulp-cli
 ```
+
 <p>4. Install npm packages inside project directory</p>
+
 ```sh
 npm install
 ```
+
 <p>5. Install bower packages inside project directory</p>
+
 ```sh
 bower install
 ```
+
 <p>6. Run gulp inside project directory</p>
+
 ```sh
 gulp
 ```
-
 
 
 ## Included tools
